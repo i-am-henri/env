@@ -16,7 +16,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={`${GeistSans.className}`}>{children}</body>
+      <body className={GeistSans.className}>{children}</body>
     </html>
   );
 }
